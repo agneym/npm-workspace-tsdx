@@ -1,0 +1,7 @@
+{
+  "name": "workspace-test",
+  "workspaces": [
+    "ui",
+    "frontend"
+  ]
+}

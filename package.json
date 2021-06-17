@@ -3,5 +3,10 @@
   "workspaces": [
     "ui",
     "frontend"
-  ]
+  ],
+  "scripts": {
+    "start": "npm start --workspace frontend",
+    "watch-ui": "npm start --workspace ui",
+    "prepare": "npm run build --workspace ui"
+  }
 }
